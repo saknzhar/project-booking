@@ -43,7 +43,7 @@ def statup(message):
     hello_count.insert(1, 1)
 @bot.message_handler(commands=['info'])
 def statup1(message):
-    bot.send_message(message.chat.id, 'Please contact me for full information. @wittles')
+    bot.send_message(message.chat.id, 'Please contact me for full information. @lelouc')
 @bot.message_handler(commands=['services'])
 def mark(message):
     keyboard = telebot.types.ReplyKeyboardMarkup(True, False)
